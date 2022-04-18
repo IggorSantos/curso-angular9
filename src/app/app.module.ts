@@ -25,7 +25,8 @@ import { ProductReadComponent } from './components/product/product-read/product-
 import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatSortModule } from '@angular/material/sort'
+import { MatSortModule } from '@angular/material/sort';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component'
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { MatSortModule } from '@angular/material/sort'
     ProductCreateComponent,
     ProductReadComponent,
     ProductRead2Component,
+    ProductUpdateComponent,
   ],
   imports: [
     BrowserModule,
